@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body { background: #f5f5f5; display: flex; flex-direction: column; align-items: center; justify-content: center; min-height: 100vh; gap: 50px; font-family: Arial; }
+.logo-container { background: white; padding: 40px 50px; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); text-align: center; }
+.dark-bg { background: #1a1a2e; }
+.label { font-size: 12px; color: #999; margin-bottom: 8px; text-transform: uppercase; letter-spacing: 2px; }
+</style>
+</head>
+<body>
+
+<!-- Version 1: Light -->
+<div class="logo-container">
+<div class="label">Light Version — Website Header</div>
+<svg width="420" height="110" viewBox="0 0 420 110" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bookGrad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1B5E20"/>
+      <stop offset="100%" style="stop-color:#2E7D32"/>
+    </linearGradient>
+    <linearGradient id="bookGrad2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#2E7D32"/>
+      <stop offset="100%" style="stop-color:#43A047"/>
+    </linearGradient>
+  </defs>
+  <g transform="translate(12, 8)">
+    <!-- Stack of books at bottom -->
+    <rect x="8" y="78" width="76" height="6" rx="1" fill="#1B5E20" opacity="0.3"/>
+    <rect x="12" y="72" width="68" height="6" rx="1" fill="#2E7D32" opacity="0.3"/>
+    <!-- Main open book -->
+    <path d="M44 12 L44 70 Q24 66 4 70 L4 16 Q24 8 44 12Z" fill="url(#bookGrad1)"/>
+    <path d="M44 12 L44 70 Q64 66 84 70 L84 16 Q64 8 44 12Z" fill="url(#bookGrad2)"/>
+    <!-- Page lines -->
+    <line x1="14" y1="30" x2="38" y2="27" stroke="white" stroke-width="1.2" opacity="0.35"/>
+    <line x1="14" y1="40" x2="38" y2="37" stroke="white" stroke-width="1.2" opacity="0.35"/>
+    <line x1="14" y1="50" x2="38" y2="47" stroke="white" stroke-width="1.2" opacity="0.35"/>
+    <line x1="50" y1="27" x2="74" y2="30" stroke="white" stroke-width="1.2" opacity="0.35"/>
+    <line x1="50" y1="37" x2="74" y2="40" stroke="white" stroke-width="1.2" opacity="0.35"/>
+    <line x1="50" y1="47" x2="74" y2="50" stroke="white" stroke-width="1.2" opacity="0.35"/>
+    <!-- Spine -->
+    <line x1="44" y1="12" x2="44" y2="70" stroke="#81C784" stroke-width="2.5"/>
+    <!-- Globe -->
+    <circle cx="44" cy="4" r="5" fill="none" stroke="#1B5E20" stroke-width="1.2"/>
+    <ellipse cx="44" cy="4" rx="2.5" ry="5" fill="none" stroke="#1B5E20" stroke-width="0.8"/>
+    <line x1="39" y1="4" x2="49" y2="4" stroke="#1B5E20" stroke-width="0.8"/>
+  </g>
+  <!-- Text -->
+  <text x="118" y="48" font-family="Georgia, 'Times New Roman', serif" font-size="40" font-weight="bold" fill="#1a1a2e" letter-spacing="3">INATEHK</text>
+  <text x="118" y="74" font-family="Georgia, 'Times New Roman', serif" font-size="18" fill="#2E7D32" letter-spacing="7">B O O K S</text>
+  <line x1="118" y1="84" x2="390" y2="84" stroke="#e0e0e0" stroke-width="1"/>
+  <text x="118" y="100" font-family="Arial, sans-serif" font-size="10" fill="#888" letter-spacing="1.5">QUALITY USED &amp; COLLECTIBLE — WORLDWIDE</text>
+</svg>
+</div>
+
+<!-- Version 2: Dark -->
+<div class="logo-container dark-bg">
+<div class="label" style="color:#555">Dark Version — Social Media / Dark Backgrounds</div>
+<svg width="420" height="110" viewBox="0 0 420 110" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bookGradD1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#388E3C"/>
+      <stop offset="100%" style="stop-color:#4CAF50"/>
+    </linearGradient>
+    <linearGradient id="bookGradD2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#4CAF50"/>
+      <stop offset="100%" style="stop-color:#66BB6A"/>
+    </linearGradient>
+  </defs>
+  <g transform="translate(12, 8)">
+    <rect x="8" y="78" width="76" height="6" rx="1" fill="#4CAF50" opacity="0.2"/>
+    <rect x="12" y="72" width="68" height="6" rx="1" fill="#66BB6A" opacity="0.2"/>
+    <path d="M44 12 L44 70 Q24 66 4 70 L4 16 Q24 8 44 12Z" fill="url(#bookGradD1)"/>
+    <path d="M44 12 L44 70 Q64 66 84 70 L84 16 Q64 8 44 12Z" fill="url(#bookGradD2)"/>
+    <line x1="14" y1="30" x2="38" y2="27" stroke="white" stroke-width="1.2" opacity="0.25"/>
+    <line x1="14" y1="40" x2="38" y2="37" stroke="white" stroke-width="1.2" opacity="0.25"/>
+    <line x1="14" y1="50" x2="38" y2="47" stroke="white" stroke-width="1.2" opacity="0.25"/>
+    <line x1="50" y1="27" x2="74" y2="30" stroke="white" stroke-width="1.2" opacity="0.25"/>
+    <line x1="50" y1="37" x2="74" y2="40" stroke="white" stroke-width="1.2" opacity="0.25"/>
+    <line x1="50" y1="47" x2="74" y2="50" stroke="white" stroke-width="1.2" opacity="0.25"/>
+    <line x1="44" y1="12" x2="44" y2="70" stroke="#A5D6A7" stroke-width="2.5"/>
+    <circle cx="44" cy="4" r="5" fill="none" stroke="#4CAF50" stroke-width="1.2"/>
+    <ellipse cx="44" cy="4" rx="2.5" ry="5" fill="none" stroke="#4CAF50" stroke-width="0.8"/>
+    <line x1="39" y1="4" x2="49" y2="4" stroke="#4CAF50" stroke-width="0.8"/>
+  </g>
+  <text x="118" y="48" font-family="Georgia, 'Times New Roman', serif" font-size="40" font-weight="bold" fill="#f0f0f0" letter-spacing="3">INATEHK</text>
+  <text x="118" y="74" font-family="Georgia, 'Times New Roman', serif" font-size="18" fill="#4CAF50" letter-spacing="7">B O O K S</text>
+  <line x1="118" y1="84" x2="390" y2="84" stroke="#333" stroke-width="1"/>
+  <text x="118" y="100" font-family="Arial, sans-serif" font-size="10" fill="#777" letter-spacing="1.5">QUALITY USED &amp; COLLECTIBLE — WORLDWIDE</text>
+</svg>
+</div>
+
+<!-- Version 3: Icon/Favicon -->
+<div class="logo-container">
+<div class="label">Favicon / App Icon / Profile Picture</div>
+<div style="display: flex; gap: 30px; align-items: center;">
+<svg width="120" height="120" viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg">
+  <rect width="120" height="120" rx="20" fill="#1a1a2e"/>
+  <g transform="translate(18, 14)">
+    <path d="M42 10 L42 62 Q22 58 2 62 L2 14 Q22 6 42 10Z" fill="#4CAF50"/>
+    <path d="M42 10 L42 62 Q62 58 82 62 L82 14 Q62 6 42 10Z" fill="#66BB6A"/>
+    <line x1="12" y1="26" x2="36" y2="23" stroke="white" stroke-width="1.5" opacity="0.3"/>
+    <line x1="12" y1="36" x2="36" y2="33" stroke="white" stroke-width="1.5" opacity="0.3"/>
+    <line x1="12" y1="46" x2="36" y2="43" stroke="white" stroke-width="1.5" opacity="0.3"/>
+    <line x1="48" y1="23" x2="72" y2="26" stroke="white" stroke-width="1.5" opacity="0.3"/>
+    <line x1="48" y1="33" x2="72" y2="36" stroke="white" stroke-width="1.5" opacity="0.3"/>
+    <line x1="48" y1="43" x2="72" y2="46" stroke="white" stroke-width="1.5" opacity="0.3"/>
+    <line x1="42" y1="10" x2="42" y2="62" stroke="#A5D6A7" stroke-width="2.5"/>
+  </g>
+  <text x="60" y="96" font-family="Georgia, serif" font-size="18" font-weight="bold" fill="#4CAF50" text-anchor="middle" letter-spacing="2">IB</text>
+  <rect x="22" y="100" width="76" height="1" fill="#4CAF50" opacity="0.3"/>
+</svg>
+
+<!-- Tiny favicon preview -->
+<div style="text-align: center;">
+<svg width="32" height="32" viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg">
+  <rect width="120" height="120" rx="20" fill="#1a1a2e"/>
+  <g transform="translate(18, 14)">
+    <path d="M42 10 L42 62 Q22 58 2 62 L2 14 Q22 6 42 10Z" fill="#4CAF50"/>
+    <path d="M42 10 L42 62 Q62 58 82 62 L82 14 Q62 6 42 10Z" fill="#66BB6A"/>
+    <line x1="42" y1="10" x2="42" y2="62" stroke="#A5D6A7" stroke-width="2.5"/>
+  </g>
+  <text x="60" y="96" font-family="Georgia, serif" font-size="18" font-weight="bold" fill="#4CAF50" text-anchor="middle" letter-spacing="2">IB</text>
+</svg>
+<div style="font-size: 10px; color: #999; margin-top: 4px;">32×32 favicon</div>
+</div>
+</div>
+</div>
+
+</body>
+</html>
